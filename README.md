@@ -1,8 +1,3 @@
-¡Claro! Aquí tienes un README.md completo y profesional para tu repositorio general dev-foundations-python-js, incluyendo tanto la parte de Python como la de JavaScript. Está pensado para ayudar a los usuarios a entender la estructura, navegar entre carpetas y comenzar rápidamente.
-
-⸻
-
-
 # 🧠 dev-foundations-python-js
 
 > Fundamentos de programación, estructuras de datos, algoritmos, automatización, buenas prácticas y curiosidades en **Python** y **JavaScript**. Un repositorio para quienes empiezan o quieren mejorar sus bases como desarrolladores de software.
@@ -113,5 +108,4 @@ Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuiscc_)
 
 Creado con el objetivo de compartir conocimiento y construir comunidad en el mundo del desarrollo de software.
 
-Aprende compartiendo. Enseña construyendo.
 
