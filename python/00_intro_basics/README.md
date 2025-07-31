@@ -1,4 +1,4 @@
-# 📘 00_intro_basics – Fundamentos de Python
+# 📘 Fundamentos de Python
 
 Esta carpeta contiene los conceptos más básicos del lenguaje Python, ideales para quienes se inician o necesitan repasar fundamentos antes de abordar temas más complejos.
 
@@ -41,7 +41,7 @@ python nombre_archivo.py
 
 ---
 
-# 📘 Variables y tipos de datos en Python
+# 🟨 Variables y tipos de datos en Python
 
 ## 🧠 ¿Qué es una variable?
 
