@@ -76,7 +76,7 @@ pip install pytest
 Consulta el archivo `CONTRIBUTING.md` para conocer cómo contribuir de forma ordenada.
 
 
-> Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuiscc_)
+> Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
 
 
 

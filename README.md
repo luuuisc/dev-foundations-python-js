@@ -104,7 +104,7 @@ Este proyecto está bajo licencia MIT. Puedes usarlo, modificarlo y compartirlo 
 
 ## ✨ Créditos
 
-Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuiscc_)
+Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
 
 Creado con el objetivo de compartir conocimiento y construir comunidad en el mundo del desarrollo de software.
 
