@@ -6,25 +6,25 @@
 
 ## 💡 Índice
 
-- [📘 00_intro_basics](#-00_intro_basics)
+- [📘 00_intro_basics](./00_intro_basics)
   - Fundamentos de Python: variables, tipos, operadores, estructuras de control, funciones, etc.
 
-- [🧱 01_data_structures](#-01_data_structures)
+- [🧱 01_data_structures](./01_data_structures)
   - Arrays, Queues, Stacks, Hashmaps, Linked Lists, Trees, Heaps, Tries, Graphs
 
-- [⚙️ 02_algorithms](#-02_algorithms)
+- [⚙️ 02_algorithms](./02_algorithms)
   - Búsqueda, ordenamiento, recursividad, algoritmos clásicos y de optimización
 
-- [🧼 03_clean_code](#-03_clean_code)
+- [🧼 03_clean_code](./03_clean_code)
   - Principios de código limpio, convenciones, refactorización
 
-- [🧪 04_testing](#-04_testing)
+- [🧪 04_testing](./04_testing)
   - Pruebas unitarias, manejo de errores, TDD
 
-- [🤖 05_automation](#-05_automation)
+- [🤖 05_automation](./05_automation)
   - Automatización con Python: scripts útiles, tareas repetitivas, scraping, bots
 
-- [🎩 curiosities](#-curiosities)
+- [🎩 curiosities](./curiosities)
   - Trucos, decoradores, hacks, one-liners y otras curiosidades del lenguaje
 
 ## 📁 Estructura general
