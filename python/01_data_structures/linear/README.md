@@ -11,6 +11,7 @@ Esta carpeta contiene implementaciones básicas de **estructuras de datos lineal
 | `array.py` | Implementación básica de un array dinámico (tipo lista) |
 | `queue.py` | Implementación de una cola (FIFO – First In First Out) |
 | `deque.py` | Implementación de una cola doble (Double-Ended Queue) |
+| `stack.py`    | Implementación de una pila (LIFO – Last In First Out)   |
 
 ---
 ## ▶️ Cómo ejecutar
@@ -19,6 +20,7 @@ Esta carpeta contiene implementaciones básicas de **estructuras de datos lineal
 python array.py
 python queue.py
 python deque.py
+python stack.py
 ```
 
 ## 🧠 ¿Qué es una estructura lineal?
@@ -28,19 +30,19 @@ Una estructura de datos lineal almacena los elementos de forma secuencial, uno t
 - De izquierda a derecha (como una lista)
 - De primero en entrar a primero en salir (como una cola)
 - Con acceso por ambos extremos (como un deque)
+- De último en entrar a primero en salir (como una pila)
 
 ---
 
 ## ⚙️ Operaciones comunes
 
-| Operación | Array | Queue | Deque |
-|----------|-------|-------|-------|
-| Agregar al final | ✅ `.append()` | ✅ `.enqueue()` | ✅ `.append_right()` |
-| Eliminar del inicio | ✅ `pop(0)` | ✅ `.dequeue()` | ✅ `.pop_left()` |
-| Agregar al inicio | ❌ (ineficiente) | ❌ | ✅ `.append_left()` |
-| Eliminar del final | ✅ `.pop()` | ❌ | ✅ `.pop_right()` |
-| Acceso directo | ✅ por índice | ❌ | ❌ |
-
+| Operación            | Array | Queue | Deque | Stack |
+|----------------------|-------|-------|-------|-------|
+| Agregar al final     | ✅ `.append()`     | ✅ `.enqueue()`     | ✅ `.append_right()` | ✅ `.push()`  |
+| Eliminar del inicio  | ✅ `pop(0)`        | ✅ `.dequeue()`     | ✅ `.pop_left()`     | ❌            |
+| Agregar al inicio    | ❌ (ineficiente)   | ❌                  | ✅ `.append_left()`  | ❌            |
+| Eliminar del final   | ✅ `.pop()`        | ❌                  | ✅ `.pop_right()`    | ✅ `.pop()`   |
+| Acceso directo       | ✅ por índice      | ❌                  | ❌                   | ❌            |
 ---
 
 ## 📈 Ejemplos de uso
@@ -79,6 +81,17 @@ print(dq.pop_right())  # 1
 print(dq.pop_left())   # 0
 ```
 
+### 🔹 Stack (Pila LIFO)
+
+```python
+from stack import Stack
+
+pila = Stack()
+pila.push(10)
+pila.push(20)
+print(pila.pop())  # 20
+```
+
 ## 🌍 Aplicaciones comunes
 
 | Estructura | Ejemplo de uso |
@@ -86,6 +99,7 @@ print(dq.pop_left())   # 0
 | 📦 Array   | Almacenamiento de datos en listas ordenadas, manipulación de colecciones, implementación de otras estructuras (pilas, matrices). |
 | 📤 Queue   | Gestión de tareas en colas de impresión, planificación de procesos en sistemas operativos, simulaciones en tiempo real. |
 | 🔁 Deque   | Navegación adelante/atrás en navegadores, funcionalidades de undo/redo, buffers de datos en streaming o procesamiento por ventanas. |
+| 🧱 Stack   | Algoritmos de retroceso (backtracking), deshacer/rehacer en editores, recorrido de árboles, evaluación de expresiones. |
 
 
 ## 🎯 ¿Por qué aprenderlas?
