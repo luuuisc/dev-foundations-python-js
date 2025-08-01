@@ -60,10 +60,11 @@ heap.insert(7)
 print(heap.peek())    # 2
 print(heap.extract()) # 2
 print(heap.extract()) # 4
-
+```
 
 Y para un MaxHeap:
 
+```python
 from max_heap import MaxHeap
 
 heap = MaxHeap()
