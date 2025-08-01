@@ -16,19 +16,30 @@ Este repositorio tiene como finalidad:
 
 ---
 
+> ⚠️ **¡IMPORTANTE!** ⚠️ 
+
+> Algunas carpetas se encuentran en desarrollo y pueden no estar completas. Con tu contribución , podemos hacer de este proyecto un recurso completo y útil para todos.
+
+
 ##  🧭 Índice del Proyecto
 
-- [📂 Introducción a Python](#-introducción-a-python)
-  - [00_intro_basics](#-00_intro_basics--fundamentos-de-python)
-  - [data_structures](#-estructuras-de-datos-en-python)
-    - [linear](#-estructuras-de-datos-lineales)
-    - [linked](#-listas-enlazadas)
-    - [tree](#-árboles)
-    - [graph](#-grafos)
-    - [hashmap](#-tablas-hash)
-    - [heap](#-heaps)
+- 📂 Introducción a Python 
+  - [00_intro_basics](./00_intro_basics)
+  - [data_structures](./01_data_structures)
+    - [linear](./python/01_data_structures/linear)
+    - [linked](./python/01_data_structures/linked)
+    - [tree](./python/01_data_structures/tree)
+    - [graph](./python/01_data_structures/graph)
+    - [hashmap](./python/01_data_structures/hashmap)
+    - [heap](./python/01_data_structures/heap)
+  - [algorithms](./02_algorithms)
+  - [clean_code](./03_clean_code)
+  - [testing](./04_testing)
+  - [automation](./05_automation)
+  - [curiosities](./06_curiosities)
 
-- [📂 Introducción a JavaScript](#-introducción-a-javascript) *(próximamente)*
+    
+- 📂 Introducción a JavaScript *(próximamente)*
 
 ## 📁 Estructura del repositorio
 
