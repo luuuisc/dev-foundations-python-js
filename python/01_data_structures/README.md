@@ -49,4 +49,4 @@ python nombre_archivo.py
 
 Desarrollado con fines educativos with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
 
-Si te resultó útil, dale una estrella ⭐ al repositorio y compártelo con más personas.
+

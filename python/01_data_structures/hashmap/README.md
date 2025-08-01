@@ -11,6 +11,15 @@ Esta carpeta contiene una implementación personalizada de una estructura de dat
 | `custom_hashmap.py` | Implementación de un mapa hash simple desde cero |
 | `collisions.py` | Ejemplos de colisiones y técnicas para resolverlas |
 
+## ▶️ Cómo usar
+
+Ejecuta cada script directamente para ver ejemplos de uso:
+
+```bash
+python collisions.py
+python custom_hashmap.py
+```
+
 ---
 
 ## 🧠 ¿Qué es un HashMap?
@@ -74,6 +83,5 @@ print(mapa.contains("edad"))  # False
 - Añade soporte para redimensionamiento automático (como los dict reales)
 
 ## 🙌 Créditos
-Implementación educativa como parte del proyecto 
 
-Autor: [@luuiscc_](https://github.com/luuuisc) 
+Desarrollado con fines educativos with ❤️ by [@luuiscc_](https://github.com/luuuisc) 

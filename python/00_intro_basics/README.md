@@ -265,3 +265,9 @@ print(sqrt(25))  # 5.0
 ```
 
 Puedes también crear tus propios módulos (archivos .py) y usarlos con import.
+
+## ✍️ Créditos
+
+Desarrollado con fines educativos with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
+
+

@@ -12,6 +12,16 @@ Esta carpeta contiene implementaciones básicas de **estructuras de grafos** y a
 | `adjacency_matrix.py` | Implementación de un grafo utilizando matriz de adyacencia |
 | `traversal.py` | Algoritmos de recorrido: BFS (Breadth-First Search) y DFS (Depth-First Search) |
 
+## ▶️ Cómo usar
+
+Ejecuta cada script directamente para ver ejemplos de uso:
+
+```bash
+python adjacency_list.py
+python adjacency_matrix.py
+python traversal.py
+```
+
 ---
 
 ## 🧠 ¿Qué es un grafo?
@@ -109,17 +119,6 @@ Un grafo permite representar:
 
 ## 🔎 Ejemplo cotidiano:
 Cuando abres Waze y te recomienda evitar una avenida por tráfico, está usando un grafo donde cada calle es un nodo conectado a otras calles, y cada conexión tiene un peso que representa el tiempo estimado. Luego, usa un algoritmo como Dijkstra para hallar la ruta más rápida.
-
-## ▶️ Cómo usar
-
-Ejecuta cada script directamente para ver ejemplos de uso:
-
-```bash
-python adjacency_list.py
-python adjacency_matrix.py
-python traversal.py
-```
-
 
 ## 📚 Recomendaciones
 - Empieza con adjacency_list.py para entender la estructura más intuitiva
