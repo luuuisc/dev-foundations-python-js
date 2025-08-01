@@ -1,4 +1,4 @@
-# 🧠 dev-foundations-python-js
+# 🧠 Dev Foundations with Python and JS
 
 > Fundamentos de programación, estructuras de datos, algoritmos, automatización, buenas prácticas y curiosidades en **Python** y **JavaScript**. Un repositorio para quienes empiezan o quieren mejorar sus bases como desarrolladores de software.
 
@@ -24,19 +24,19 @@ Este repositorio tiene como finalidad:
 ##  🧭 Índice del Proyecto
 
 - 📂 Introducción a Python 
-  - [00_intro_basics](./00_intro_basics)
-  - [data_structures](./01_data_structures)
+  - [00_intro_basics](./python/00_intro_basics)
+  - [data_structures](./python/01_data_structures)
     - [linear](./python/01_data_structures/linear)
     - [linked](./python/01_data_structures/linked)
     - [tree](./python/01_data_structures/tree)
     - [graph](./python/01_data_structures/graph)
     - [hashmap](./python/01_data_structures/hashmap)
     - [heap](./python/01_data_structures/heap)
-  - [algorithms](./02_algorithms)
-  - [clean_code](./03_clean_code)
-  - [testing](./04_testing)
-  - [automation](./05_automation)
-  - [curiosities](./06_curiosities)
+  - [algorithms](./python/02_algorithms)
+  - [clean_code](./python/03_clean_code)
+  - [testing](./python/04_testing)
+  - [automation](./python/05_automation)
+  - [curiosities](./python/curiosities)
 
     
 - 📂 Introducción a JavaScript *(próximamente)*
@@ -64,8 +64,6 @@ dev-foundations-python-js/
 │   ├── 05_dom_scripts/       # Mini scripts para interactuar con el DOM
 │   └── curiosities/          # Tips, trucos y funciones interesantes
 │
-├── .github/workflows/        # GitHub Actions para CI/CD
-│
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -84,7 +82,7 @@ dev-foundations-python-js/
 1. Clona el repositorio:
 
 	```bash
-	git clone https://github.com/tu_usuario/dev-foundations-python-js.git
+	git clone https://github.com/luuuisc/dev-foundations-python-js.git
 	cd dev-foundations-python-js
 	```
 
