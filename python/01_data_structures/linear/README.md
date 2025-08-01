@@ -105,7 +105,7 @@ print(pila.pop())  # 20
 ## 🎯 ¿Por qué aprenderlas?
 - Son la base para muchas otras estructuras más complejas.
 - Aparecen en problemas de programación competitiva y entrevistas.
-	•	Mejoran tu capacidad para elegir la estructura correcta en cada situación.
+- Mejoran tu capacidad para elegir la estructura correcta en cada situación.
 
 ## 👀 ¿Qué es lo siguiente?
 

@@ -16,6 +16,20 @@ Este repositorio tiene como finalidad:
 
 ---
 
+##  🧭 Índice del Proyecto
+
+- [📂 Introducción a Python](#-introducción-a-python)
+  - [00_intro_basics](#-00_intro_basics--fundamentos-de-python)
+  - [data_structures](#-estructuras-de-datos-en-python)
+    - [linear](#-estructuras-de-datos-lineales)
+    - [linked](#-listas-enlazadas)
+    - [tree](#-árboles)
+    - [graph](#-grafos)
+    - [hashmap](#-tablas-hash)
+    - [heap](#-heaps)
+
+- [📂 Introducción a JavaScript](#-introducción-a-javascript) *(próximamente)*
+
 ## 📁 Estructura del repositorio
 
 ```plaintext
