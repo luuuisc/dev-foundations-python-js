@@ -24,7 +24,7 @@ Este repositorio tiene como finalidad:
 ##  🧭 Índice del Proyecto
 
 - 📂 Introducción a Python 
-  - [00_intro_basics](./python/00_intro_basics)
+  - [intro_basics](./python/00_intro_basics)
   - [data_structures](./python/01_data_structures)
     - [linear](./python/01_data_structures/linear)
     - [linked](./python/01_data_structures/linked)
