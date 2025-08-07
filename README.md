@@ -16,8 +16,7 @@ Este repositorio tiene como finalidad:
 
 ---
 
-> ⚠️ **¡IMPORTANTE!** ⚠️ 
-
+> [!WARNING]
 > Algunas carpetas se encuentran en desarrollo y pueden no estar completas. Con tu contribución , podemos hacer de este proyecto un recurso completo y útil para todos.
 
 
