@@ -1,6 +1,10 @@
 # 🧮 Programación Dinámica (Dynamic Programming)
 
-Esta carpeta contiene ejemplos clásicos de algoritmos que utilizan la técnica de **programación dinámica (DP)** para resolver problemas que pueden descomponerse en subproblemas superpuestos y tener soluciones óptimas estructuradas.
+La **programación dinámica (DP)** es una técnica de diseño de algoritmos que permite resolver problemas complejos dividiéndolos en **subproblemas más pequeños** cuyos resultados se almacenan para evitar cálculos repetidos.  
+
+Es especialmente útil cuando un problema presenta:
+- **Subproblemas superpuestos**: los mismos subproblemas se resuelven múltiples veces.
+- **Estructura óptima**: la solución óptima del problema completo se puede construir a partir de soluciones óptimas de sus subproblemas.
 
 ---
 
@@ -14,37 +18,68 @@ Esta carpeta contiene ejemplos clásicos de algoritmos que utilizan la técnica 
 
 ---
 
-## 🧠 ¿Qué es la programación dinámica?
+## ⚙️ ¿Cómo funciona la programación dinámica?
 
-La programación dinámica es un enfoque algorítmico que:
+Existen dos enfoques principales:
 
-- **Descompone un problema** en subproblemas más pequeños.
-- **Guarda los resultados** de subproblemas ya resueltos para evitar cálculos repetidos (*memoización* o *tabulación*).
-- Funciona bien en problemas con:
-  - **Subproblemas superpuestos**
-  - **Estructura óptima**
+1. **Memoización (Top-Down)**  
+   - Se usa recursión.
+   - Se almacenan los resultados de las llamadas ya resueltas en una tabla (generalmente un diccionario o arreglo).
+   - Evita recomputar subproblemas.
 
+2. **Tabulación (Bottom-Up)**  
+   - Se construye una tabla de soluciones empezando por los casos base.
+   - Se resuelve el problema de forma iterativa.
+   - Suele ser más eficiente en consumo de memoria en ciertos casos.
+
+---
+
+## 🧪 Ejemplo rápido: Fibonacci con memoización
+
+```python
+def fib(n, memo={}):
+    if n in memo:
+        return memo[n]
+    if n <= 1:
+        return n
+    memo[n] = fib(n-1, memo) + fib(n-2, memo)
+    return memo[n]
+
+print(fib(10))  # 55
+```
 ---
 
 ## ⏱️ Complejidad esperada
 
-| Algoritmo                        | Temporal             | Espacial             | Comentarios |
-|----------------------------------|----------------------|----------------------|-------------|
-| Fibonacci         | O(n)                 | O(n)                 | Se evita la recursión exponencial |
-| Knapsack 0/1                     | O(n·W)               | O(n·W)               | `n`: número de ítems, `W`: capacidad |
-| Longest Common Subsequence (LCS)| O(n·m)               | O(n·m)               | `n`, `m`: longitudes de las cadenas |
+| Algoritmo                        | Temporal | Espacial | Comentarios                          |
+| -------------------------------- | -------- | -------- | ------------------------------------ |
+| Fibonacci                        | O(n)     | O(n)     | Se evita la recursión exponencial    |
+| Knapsack 0/1                     | O(n·W)   | O(n·W)   | `n`: número de ítems, `W`: capacidad |
+| Longest Common Subsequence (LCS) | O(n·m)   | O(n·m)   | `n`, `m`: longitudes de las cadenas  |
 
-> 💡 *Importante:* Muchas veces podemos **optimizar el espacio** en DP si solo necesitamos una o dos filas previas del arreglo de soluciones.
+---
 
-## 🎯 ¿Por qué es importante?
+## 🌍 Aplicaciones reales
 
-- Resuelve problemas que serían **exponenciales** con fuerza bruta.
-- Es muy común en **entrevistas técnicas**.
-- Se aplica en:
-  - Optimización de recursos
-  - Análisis de secuencias
-  - Procesamiento de lenguaje natural
+| Área                      | Ejemplo                                       |
+| ------------------------- | --------------------------------------------- |
+| Optimización de recursos  | Planificación de proyectos, rutas óptimas     |
+| Bioinformática            | Alineación de secuencias de ADN               |
+| Procesamiento de lenguaje | Corrección ortográfica, traducción automática |
+| Finanzas                  | Estrategias de inversión óptimas              |
+| Compresión de datos       | Algoritmos como Lempel–Ziv                    |
+
+---
+
+## 📚 Top 5 recursos recomendados
+
+1. **[Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)** – Ejemplos y teoría detallada.
+2. **[DP Patterns - LeetCode Explore](https://leetcode.com/explore/learn/card/dynamic-programming/)** – Ejercicios guiados para dominar el patrón.
+3. **Libro: "Introduction to Algorithms" (CLRS)** – Capítulos dedicados a DP con análisis de complejidad y ejemplos.
+
+---
 
 ## 🙌 Créditos
 
-Desarrollado con fines educativos with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
+Desarrollado con fines educativos ❤️ por [@luuiscc\_](https://github.com/luuuisc)
+
