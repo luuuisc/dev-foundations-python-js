@@ -35,11 +35,9 @@ def linear_search(arr, target):
 ---
 
 ### 2. Búsqueda binaria (Binary Search)
-
-* Requiere que la lista esté **ordenada**.
-* Compara el elemento central con el objetivo y descarta la mitad donde no puede estar.
-* **Complejidad:**
-
+- Requiere que la lista esté **ordenada**.
+- Compara el elemento central con el objetivo y descarta la mitad donde no puede estar.
+- **Complejidad:**
   * Tiempo: O(log n)
   * Espacio: O(1) (iterativa) o O(log n) (recursiva)
 
@@ -61,10 +59,9 @@ def binary_search(arr, target):
 
 ### 3. Búsqueda por saltos (Jump Search)
 
-* Requiere lista **ordenada**.
-* Salta bloques de tamaño fijo (aproximadamente `√n`) hasta superar el objetivo, luego realiza búsqueda lineal en ese bloque.
-* **Complejidad:**
-
+- Requiere lista **ordenada**.
+- Salta bloques de tamaño fijo (aproximadamente `√n`) hasta superar el objetivo, luego realiza búsqueda lineal en ese bloque.
+- **Complejidad:**
   * Tiempo: O(√n)
   * Espacio: O(1)
 
@@ -99,7 +96,7 @@ def jump_search(arr, target):
 
 ---
 
-## 📊 Ejemplo visual: Búsqueda binaria
+## Ejemplo visual: Búsqueda binaria
 
 Lista ordenada:
 

@@ -20,9 +20,33 @@ Son fundamentales para acelerar búsquedas, deduplicación, combinaciones y aná
 
 ## 🧠 Teoría esencial
 
-- **Estabilidad**: si dos elementos “iguales” conservan su orden relativo. Útil cuando ordenas por múltiples llaves.
-- **In-place**: si el algoritmo usa memoria adicional O(1) (o muy poca).
-- **Comparativo vs no comparativo**: aquí todos son **comparativos** (usan `<, >`).
+Los algoritmos de ordenamiento son una de las bases de la informática, ya que muchos otros algoritmos (de búsqueda, optimización, estructuras de datos) dependen de tener los datos ordenados para funcionar de manera eficiente.
+
+Algunos conceptos clave:
+
+- **Estabilidad**: Un algoritmo es estable si, cuando dos elementos tienen la misma clave, mantienen el mismo orden relativo que tenían antes de ordenar.  
+  Ejemplo: si ordenas una lista de personas por edad y dos personas tienen la misma edad, un algoritmo estable mantendrá su orden original.
+
+- **In-place**: El algoritmo no necesita una estructura auxiliar proporcional al tamaño de la lista; usa solo una cantidad constante de memoria extra (O(1)). Esto es importante cuando se trabaja con grandes volúmenes de datos.
+
+- **Comparativo vs No comparativo**:
+  - **Comparativos**: Deciden el orden solo mediante comparaciones (`<`, `>`). Ejemplos: Quick Sort, Merge Sort, Heap Sort.
+  - **No comparativos**: Usan operaciones distintas a la comparación para ordenar, como el conteo o distribución de elementos (p. ej., *Counting Sort*, *Radix Sort*). Pueden ser más rápidos en casos específicos pero dependen de propiedades concretas de los datos.
+
+- **Complejidad temporal**:  
+  - *Mejor caso*: escenario más favorable (ej. lista ya ordenada para Insertion Sort).  
+  - *Promedio*: escenario más común esperado.  
+  - *Peor caso*: escenario menos favorable (ej. Quick Sort con pivote desbalanceado).
+
+- **Complejidad espacial**: Espacio extra requerido además de los datos originales.
+
+- **Divide y vencerás**: Estrategia en la que el problema se divide en subproblemas más pequeños, se resuelven de forma independiente y luego se combinan. Merge Sort y Quick Sort usan esta técnica.
+
+- **Trade-offs**: No hay un único algoritmo “mejor” para todo; la elección depende de:
+  - Tamaño de los datos.
+  - Distribución de los elementos.
+  - Restricciones de memoria.
+  - Necesidad o no de estabilidad.
 
 ---
 
@@ -32,7 +56,7 @@ Son fundamentales para acelerar búsquedas, deduplicación, combinaciones y aná
 - **Insertion Sort**: inserta cada elemento en su posición dentro de la parte ya ordenada. Excelente para **listas pequeñas** o **casi ordenadas**.
 - **Selection Sort**: selecciona el mínimo y lo pone al inicio. Pocos movimientos, pero comparaciones cuadráticas.
 - **Merge Sort**: divide la lista y **mezcla** dos mitades ordenadas. Complejidad `O(n log n)` garantizada, **estable**, pero no in-place.
-- **Quick Sort**: elige **pivote**, particiona y recurre. Muy rápido en la práctica (`O(n log n)` promedio), **no estable**; peor caso `O(n²)` si el pivote es malo.
+- **Quick Sort**: elige **pivote**, particiona y recorre. Muy rápido en la práctica (`O(n log n)` promedio), **no estable**; peor caso `O(n²)` si el pivote es malo.
 - **Heap Sort**: construye un **heap** y extrae en orden. `O(n log n)` en peor caso, in-place, **no estable**.
 
 ---

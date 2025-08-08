@@ -52,7 +52,7 @@ for board in solutions:
     for row in board:
         print(row)
     print("-----")
-````
+```
 
 Salida esperada:
 
@@ -80,6 +80,39 @@ Q...
 
 ---
 
+## ¿Qué son las podas y cómo interpretar la complejidad?
+
+### 🔹 Podas en Backtracking
+En backtracking, **podar** significa **detener la exploración de una rama del árbol de soluciones cuando ya se sabe que no puede conducir a una solución válida**.  
+Esto evita cálculos innecesarios y reduce el número de combinaciones exploradas, aunque la complejidad teórica máxima no cambie.
+
+**Ejemplo en N-Queens**:  
+Si colocas una reina en una posición que ya es atacada por otra, no tiene sentido seguir probando en esa rama → se “poda” y se pasa a otra alternativa.
+
+---
+
+### 🔹 Complejidad temporal
+
+- **N-Queens – O(N!)**  
+  El número de formas posibles de colocar N reinas en N filas crece factorialmente.  
+  Con podas, en la práctica se exploran muchas menos combinaciones, pero el peor caso sigue siendo O(N!).
+
+- **Sudoku Solver – O(9^m)**  
+  `m` = número de celdas vacías.  
+  En el peor caso, cada celda podría tener 9 valores posibles → 9 × 9 × ... × 9 (m veces).  
+  Las restricciones del Sudoku y las podas reducen mucho el trabajo real.
+
+---
+
+### 🔹 Complejidad espacial
+
+- **N-Queens – O(N²)**: espacio para el tablero N×N y estructuras auxiliares.
+- **Sudoku Solver – O(m) o O(1)**:  
+  - O(m) si se almacenan las posibles opciones de cada celda vacía.  
+  - O(1) si se trabaja sobre la matriz fija de 9×9 (espacio constante).
+
+---
+
 ## 🌍 Aplicaciones reales
 
 | Área                        | Ejemplo                                                |
@@ -91,7 +124,7 @@ Q...
 
 ---
 
-## 📚 Top 5 recursos recomendados
+## 📚 Top recursos recomendados
 
 1. **[Backtracking - GeeksforGeeks](https://www.geeksforgeeks.org/backtracking-algorithms/)** – Explicación teórica con ejemplos clásicos.
 2. **[Backtracking Pattern - LeetCode Explore](https://leetcode.com/explore/learn/card/recursion-ii/472/backtracking/)** – Ejercicios progresivos para dominar el patrón.

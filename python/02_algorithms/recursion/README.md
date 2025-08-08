@@ -48,8 +48,6 @@ def factorial(n):
     return n * factorial(n - 1)
 ```
 
-Complejidad: **O(n)** tiempo y **O(n)** espacio por las llamadas recursivas.
-
 ---
 
 ### 2. Fibonacci
@@ -71,8 +69,6 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 ```
 
-Complejidad: **O(2^n)** tiempo sin optimización. Con memoización se reduce a **O(n)**.
-
 ---
 
 ### 3. Palíndromo
@@ -93,8 +89,6 @@ def is_palindrome(s):
         return False
     return is_palindrome(s[1:-1])
 ```
-
-Complejidad: **O(n)** tiempo, **O(n)** espacio por la pila.
 
 ---
 

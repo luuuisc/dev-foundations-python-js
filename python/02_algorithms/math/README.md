@@ -22,11 +22,9 @@ Esta carpeta contiene implementaciones de **algoritmos matemáticos fundamentale
 
 2. **Máximo Común Divisor (GCD)**  
    - Algoritmo de Euclides para encontrar el divisor común más grande entre dos números.
-   - Complejidad: **O(log min(a, b))**.
 
 3. **Criba de Eratóstenes**  
    - Método eficiente para generar números primos menores o iguales a un número `n`.
-   - Complejidad: **O(n log log n)**.
 
 ---
 

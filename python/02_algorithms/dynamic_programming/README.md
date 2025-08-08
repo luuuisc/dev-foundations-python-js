@@ -1,4 +1,4 @@
-# 🧮 Programación Dinámica (Dynamic Programming)
+# 🧮 Dynamic Programming
 
 La **programación dinámica (DP)** es una técnica de diseño de algoritmos que permite resolver problemas complejos dividiéndolos en **subproblemas más pequeños** cuyos resultados se almacenan para evitar cálculos repetidos.  
 
@@ -34,19 +34,49 @@ Existen dos enfoques principales:
 
 ---
 
-## 🧪 Ejemplo rápido: Fibonacci con memoización
+## 🟨 Serie de Fibonacci
 
-```python
-def fib(n, memo={}):
-    if n in memo:
-        return memo[n]
-    if n <= 1:
-        return n
-    memo[n] = fib(n-1, memo) + fib(n-2, memo)
-    return memo[n]
+La **serie de Fibonacci** es una secuencia de números en la que cada término es la suma de los dos anteriores.  
+Comienza con 0 y 1 (en algunas variantes, 1 y 1).
 
-print(fib(10))  # 55
+**Definición matemática:**
+
 ```
+F(0) = 0
+F(1) = 1
+F(n) = F(n - 1) + F(n - 2), para n ≥ 2
+```
+
+**Ejemplo de los primeros términos:**
+
+```
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+```
+
+---
+
+### 🔹 Interpretación
+- Representa un crecimiento acumulativo donde el siguiente valor depende de los dos previos.
+- Aparece en fenómenos naturales como la disposición de hojas, patrones de caracolas, ramas de árboles y biología matemática.
+- Es base de ciertos algoritmos y problemas de optimización.
+
+---
+
+## 🎒 Problema de la Mochila (0/1 Knapsack)
+
+El **problema de la mochila 0/1** consiste en, dado un conjunto de objetos con **peso** y **valor**, elegir cuáles llevar en una mochila de **capacidad máxima** de forma que se **maximice el valor total**, sin superar el peso permitido.  
+
+Se llama *0/1* porque cada objeto se puede tomar **una sola vez** (0 = no tomar, 1 = tomar).
+
+---
+
+### 🔹 Definición formal
+Dado:
+- `n`: número de objetos.
+- `weights[i]`: peso del objeto `i`.
+- `values[i]`: valor del objeto `i`.
+- `W`: capacidad máxima de la mochila.
+
 ---
 
 ## ⏱️ Complejidad esperada
