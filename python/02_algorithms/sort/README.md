@@ -48,8 +48,6 @@ Son fundamentales para acelerar búsquedas, deduplicación, combinaciones y aná
 | Quick Sort      | O(n log n)| O(n log n)| O(n²)     | O(log n)\*    | ❌      | ✅      |
 | Heap Sort       | O(n log n)| O(n log n)| O(n log n)| O(1)          | ❌      | ✅      |
 
-\*Con implementación recursiva de cola/partición equilibrada.
-
 ---
 
 ## 🔎 ¿Cuándo usar cuál?

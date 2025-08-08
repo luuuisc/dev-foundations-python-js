@@ -22,19 +22,28 @@ Este repositorio tiene como finalidad:
 ## 🧭 Índice del Proyecto
 
 - 📂 Introducción a Python
-  - [intro_basics](./python/00_intro_basics)
-  - [data_structures](./python/01_data_structures)
+  - [Intro Basics](./python/00_intro_basics)
+  - [Data Structures](./python/01_data_structures)
     - [linear](./python/01_data_structures/linear)
     - [linked](./python/01_data_structures/linked)
     - [tree](./python/01_data_structures/tree)
     - [graph](./python/01_data_structures/graph)
     - [hashmap](./python/01_data_structures/hashmap)
     - [heap](./python/01_data_structures/heap)
-  - [algorithms](./python/02_algorithms)
-  - [clean_code](./python/03_clean_code)
-  - [testing](./python/04_testing)
-  - [automation](./python/05_automation)
-  - [curiosities](./python/curiosities)
+  - [Algorithms](./python/02_algorithms)
+    - [backtracking](./python/02_algorithms/backtracking)
+    - [dynamic programming](./python/02_algorithms/dynamic_programming)
+    - [graph](./python/02_algorithms/graph)
+    - [greedy](./python/02_algorithms/greedy)
+    - [math](./python/02_algorithms/math)
+    - [recursion](./python/02_algorithms/recursion)
+    - [search](./python/02_algorithms/search)
+    - [sort](./python/02_algorithms/sort)
+
+  - [Clean_code](./python/03_clean_code)
+  - [Testing](./python/04_testing)
+  - [Automation](./python/05_automation)
+  - [Curiosities](./python/curiosities)
 
 - 📂 Introducción a JavaScript *(próximamente)*
 
@@ -77,15 +86,16 @@ dev-foundations-python-js/
 
 ## 🚀 Cómo empezar
 
-1.Clona el repositorio:
+1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/luuuisc/dev-foundations-python-js.git
 cd dev-foundations-python-js
 ```
 
-2.Navega entre las carpetas python/ o javascript/ para explorar el contenido.
-3.Ejecuta los scripts según el lenguaje (usa python o abre en navegador/Node.js).
+2. Navega entre las carpetas python/ o javascript/ para explorar el contenido.
+
+3. Ejecuta los scripts según el lenguaje (usa python o abre en navegador/Node.js).
 
 ## 🧪 Ejecutar pruebas
 
@@ -117,7 +127,7 @@ npm test
 1. Haz fork del repositorio.
 2. Crea una rama con tu mejora.
 3. Abre un Pull Request explicando tu aporte.
-4. Consulta el archivo `CONTRIBUTING.md` para más detalles.
+4. Consulta el archivo [`CONTRIBUTING.md`](./CONTRIBUTING.md) para más detalles.
 
 ## 📚 Licencia
 
@@ -129,4 +139,5 @@ Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuuisc)
 
 Creado con el objetivo de compartir conocimiento y construir comunidad en el mundo del desarrollo de software.
 
-Si te resultó útil, dale una estrella ⭐ al repositorio y compártelo con más personas
+> [!IMPORTANT]
+> Si te resultó útil, dale una estrella ⭐ al repositorio y compártelo con más personas

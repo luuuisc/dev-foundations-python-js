@@ -6,38 +6,26 @@
 
 ## 💡 Índice
 
-- [📘 00_intro_basics](./00_intro_basics)
-  - Fundamentos de Python: variables, tipos, operadores, estructuras de control, funciones, etc.
+- [📘 Intro Basics](./00_intro_basics)
+  - Fundamentos del lenguaje Python: sintaxis, variables, condicionales, bucles, funciones, tipos básicos.
 
-- [🧱 01_data_structures](./01_data_structures)
-  - Arrays, Queues, Stacks, Hashmaps, Linked Lists, Trees, Heaps, Tries, Graphs
+- [🧱 Data Structures](./01_data_structures)
+  - Implementación manual de estructuras de datos como pilas, colas, listas enlazadas, árboles, grafos, mapas y heaps.
 
-- [⚙️ 02_algorithms](./02_algorithms)
-  - Búsqueda, ordenamiento, recursividad, algoritmos clásicos y de optimización
+- [⚙️ Algorithms](./02_algorithms)
+  - Algoritmos clásicos de búsqueda, ordenamiento, recursión, programación dinámica, backtracking y grafos.
 
-- [🧼 03_clean_code](./03_clean_code)
-  - Principios de código limpio, convenciones, refactorización
+- [🧼 Clean Code](./03_clean_code)
+  - Buenas prácticas de programación, refactorización, nombres significativos, código legible y mantenible.
 
-- [🧪 04_testing](./04_testing)
-  - Pruebas unitarias, manejo de errores, TDD
+- [🧪 Testing](./04_testing)
+  - Pruebas unitarias con `pytest`. Casos de prueba para estructuras y algoritmos, incluyendo casos borde.
 
-- [🤖 05_automation](./05_automation)
-  - Automatización con Python: scripts útiles, tareas repetitivas, scraping, bots
+- [🤖 Automation](./05_automation)
+  - Scripts útiles para tareas reales como renombrar archivos, organizar carpetas, crear backups, etc.
 
-- [🎩 curiosities](./curiosities)
-  - Trucos, decoradores, hacks, one-liners y otras curiosidades del lenguaje
-
-## 📁 Estructura general
-
-| Carpeta | Descripción |
-|--------|-------------|
-| `00_intro_basics/` | Fundamentos del lenguaje Python: sintaxis, variables, condicionales, bucles, funciones, tipos básicos. |
-| `01_data_structures/` | Implementación manual de estructuras de datos como pilas, colas, listas enlazadas, árboles, grafos, mapas y heaps. |
-| `02_algorithms/` | Algoritmos clásicos de búsqueda, ordenamiento, recursión, programación dinámica, backtracking y grafos. |
-| `03_clean_code/` | Buenas prácticas de programación, refactorización, nombres significativos, código legible y mantenible. |
-| `04_testing/` | Pruebas unitarias con `pytest`. Casos de prueba para estructuras y algoritmos, incluyendo casos borde. |
-| `05_automation/` | Scripts útiles para tareas reales como renombrar archivos, organizar carpetas, crear backups, etc. |
-| `curiosities/` | Trucos, funciones poco conocidas, y características interesantes de Python. Desde `import this` hasta el operador walrus (`:=`). |
+- [🎩 Cursiosities](./curiosities)
+  - Trucos, funciones poco conocidas, y características interesantes de Python. Desde `import this` hasta el operador walrus (`:=`).
 
 ---
 
@@ -96,8 +84,7 @@ pip install pytest
 
 ¿Quieres sugerir mejoras, nuevos ejercicios o aportar código?
 
-Consulta el archivo `CONTRIBUTING.md` para conocer cómo contribuir de forma ordenada.
-
+Consulta el archivo [`CONTRIBUTING.md`](./CONTRIBUTING.md) para conocer cómo contribuir de forma ordenada.
 
 > Desarrollado y mantenido with ❤️ by [@luuiscc_](https://github.com/luuuisc) 
 
