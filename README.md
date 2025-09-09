@@ -40,7 +40,7 @@ Este repositorio tiene como finalidad:
     - [search](./python/02_algorithms/search)
     - [sort](./python/02_algorithms/sort)
 
-  - [Clean_code](./python/03_clean_code)
+  - [Clean Code](./python/03_clean_code)
   - [Testing](./python/04_testing)
   - [Automation](./python/05_automation)
   - [Curiosities](./python/curiosities)
